@@ -1,0 +1,11 @@
+
+language: csharp
+solution: SemVerAdvisor.sln
+
+install:
+  - sudo apt-get install nunit-console
+
+script:
+  - nuget restore SemVerAdvisor.sln
+  - xbuild /p:Configuration=Debug SemVerAdvisor.sln
+
