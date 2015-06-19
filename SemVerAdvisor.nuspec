@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>SemVerAdvisor</id>
+    <version>$version$</version>
+    <title>SemVerAdvisor</title>
+    <authors>izrik,metaindu</authors>
+    <owners>izrik,metaindu</owners>
+    <licenseUrl>https://github.com/izrik/SemVerAdvisor/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/izrik/SemVerAdvisor</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/izrik/SemVerAdvisor/master/SemVerAdvisor.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Compare two versions of an assembly and suggest how to bump version numbers</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2015 izrik and Metaphysics Industries, Inc.</copyright>
+    <tags>semver semantic versioning continuous integration delivery</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="bin/Debug/SemVerAdvisor.dll" target="lib/net40" />
+  </files>
+</package>
